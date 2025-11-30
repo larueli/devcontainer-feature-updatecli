@@ -1,10 +1,12 @@
 # Updatecli Dev Container Feature
 
-[![test](https://github.com/larueli/devcontainer-feature-updatecli/actions/workflows/test.yml/badge.svg)](https://github.com/larueli/devcontainer-feature-updatecli/actions/workflows/test.yml)
+
 ![GitHub Release](https://img.shields.io/github/v/release/larueli/devcontainer-feature-updatecli?sort=semver&display_name=release)
+[![test](https://github.com/larueli/devcontainer-feature-updatecli/actions/workflows/test.yml/badge.svg)](https://github.com/larueli/devcontainer-feature-updatecli/actions/workflows/test.yml)
+[![dependabot](https://img.shields.io/badge/dependabot-enabled-025E8C?logo=dependabot&logoColor=white)](https://github.com/dependabot)
 
 
-Installs the [Updatecli](https://github.com/updatecli/updatecli) CLI in a dev container using GitHub releases and checksum verification.
+Installs [updatecli](https://github.com/updatecli/updatecli) in a dev container using GitHub releases and checksum verification.
 
 ## Options
 
