@@ -15,7 +15,7 @@ Installs the [Updatecli](https://github.com/updatecli/updatecli) CLI in a dev co
 ```jsonc
 {
   "features": {
-    "ghcr.io/larueli/features/updatecli:1": {
+    "ghcr.io/larueli/devcontainer-feature-updatecli/updatecli:1": {
       "version": "latest"
     }
   }
