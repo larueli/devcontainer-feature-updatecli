@@ -1,0 +1,17 @@
+{
+  "id": "updatecli",
+  "version": "1.0.0",
+  "name": "Updatecli",
+  "description": "Installs the Updatecli CLI from GitHub releases.",
+  "documentationURL": "https://github.com/updatecli/updatecli",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Updatecli version (e.g. v0.81.0). Use 'latest' to install the newest release."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

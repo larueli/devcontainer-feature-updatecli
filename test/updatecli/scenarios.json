@@ -1,0 +1,24 @@
+{
+    "latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "updatecli": {}
+        }
+    },
+    "pinned": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "updatecli": {
+                "version": "v0.110.0"
+            }
+        }
+    },
+    "pinned-dev": {
+        "image": "mcr.microsoft.com/devcontainers/python:2-3.14-trixie",
+        "features": {
+            "updatecli": {
+                "version": "v0.110.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "devcontainer-feature-updatecli",
+  "version": "1.0.0",
+  "description": "Dev Container Feature for installing Updatecli",
+  "license": "MIT",
+  "scripts": {
+    "lint": "echo \"no lint configured\"",
+    "test": "echo \"no tests yet\""
+  }
+}
