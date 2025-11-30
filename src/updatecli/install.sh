@@ -17,7 +17,7 @@ ensure_curl() {
 
     # Try to source /etc/os-release for information (optional but nice)
     if [ -f /etc/os-release ]; then
-        # shellcheck disable=SC1091
+        # shellcheck source=/dev/null
         . /etc/os-release
         echo "Detected distro: ${ID:-unknown} (like: ${ID_LIKE:-})"
     fi
