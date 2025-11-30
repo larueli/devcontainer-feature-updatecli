@@ -1,4 +1,4 @@
-name: "Test Features matrixed with a set of base images"
+name: "test"
 on:
   pull_request:
     branches:
@@ -8,6 +8,7 @@ on:
       - main
     tags:
       - "v*"
+  workflow_call:
   workflow_dispatch:
 
 jobs:
