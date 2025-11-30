@@ -20,6 +20,7 @@ Installs the [Updatecli](https://github.com/updatecli/updatecli) CLI in a dev co
     }
   }
 }
+```
 
 ## Reference
 
